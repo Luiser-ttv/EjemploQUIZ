@@ -12,4 +12,5 @@
 
 <p>Esto esta en el body</p>
 
+<a href="{{ url('pagina02') }}" class="btn btn-xs btn-info pull-right">Página 02</a>
 @endsection
