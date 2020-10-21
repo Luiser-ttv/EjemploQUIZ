@@ -14,7 +14,7 @@
 
 @section('contenido')
 
-<h3>Esto esta en el body de la página 02</h3>
+<h3>El tema elegido es: {{ $tema }}</h3> 
 
 <a href="{{ url('/') }}" class="btn btn-xs btn-info pull-left">Página 01</a>
 
